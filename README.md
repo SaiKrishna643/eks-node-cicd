@@ -178,13 +178,3 @@ terraform destroy
 aws ecr list-images --repository-name devpulse --region us-east-1
 # aws ecr batch-delete-image --repository-name devpulse --region us-east-1 --image-ids ...
 ```
-
-**Cost reminder:** EKS control plane, EC2 worker nodes, NLB, and NAT (if used) incur charges while running. Run `terraform destroy` when you are not actively using the lab.
-
-## Resume / portfolio bullets
-
-Use these as starting points on your CV or LinkedIn:
-
-- Built a Node.js microservice health dashboard on **Amazon EKS** with **Docker**, **ECR**, and **Terraform** (VPC + cluster).
-- Implemented **GitHub Actions** CI/CD: PR tests, image build/push, and automated rollout to EKS with **HPA** and **NLB** exposure.
-- Designed Kubernetes manifests with health probes, resource limits, rolling updates, and horizontal autoscaling (2–5 pods).
